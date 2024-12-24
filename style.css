@@ -1,0 +1,176 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container__header{
+    display: flex;
+    background: rgb(51, 24, 24);
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+}
+.header__line{
+    margin-right: 50px;
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.container_hero{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(66, 39, 39);
+}
+.hero__title{
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.body{
+    background-color: rgb(20, 20, 20);
+}
+.button{
+    border-radius: 6px;
+
+    box-shadow: inset 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+    background: linear-gradient(135.00deg, rgb(116, 11, 11),rgb(255, 0, 0) 100%);
+    padding: auto;
+}
+.hero__paragraph{
+    color: rgb(228, 228, 228);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+.hero__img{
+    width: 537px;
+}
+.full{
+    background-color: brown;
+    width: 200px;
+    height: 5px;
+}
+.fill{
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+}
+.full2{
+    background-color: brown;
+    width: 200px;
+    height: 5px;
+    margin-bottom: 15px;
+}
+.fill2{
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+.full3{
+    background-color: brown;
+    width: 200px;
+    height: 5px;
+    margin-bottom: 50px;
+}
+.fill3{
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.about__title{
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    background: rgb(52, 35, 35);
+    margin-bottom: 0;
+}
+.about__list{
+    color: aqua;
+}
+.container_about{
+    background-color: rgb(75, 40, 40);
+    padding-bottom: 50px;
+}
+.video__video{
+    width: 1111px;
+    height: 463px;
+    left: 203px;
+    right: -203px;
+    top: 267px;
+    bottom: -71px;
+}
+.video__title{
+    text-align: center  ;
+}
+.container_video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.container_video{
+    background-color: rgb(75, 40, 40);
+    padding-top: 50px;
+}
+.gallery__img{
+    width: 100%;
+}
+.gallery__item{
+    width: 318px    ; 
+    margin-left: 10px; 
+    margin-top: 10px; 
+    
+}
+.gallery__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(52, 35, 35);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gallery__title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    background: rgb(52, 35, 35);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container_footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(70, 34, 34);
+    align-items: center;
+}  
+.about__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(52, 35, 35);
+} 
